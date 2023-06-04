@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:grocery/pages/Fruits.dart';
 import 'package:grocery/pages/Home.dart';
+import 'package:grocery/pages/login.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-  static const String _title = 'Flutter Stateful Clicker Counter';
+  static const String _title = 'Grocery App';
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -59,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 onPressed: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Home()),
+                    MaterialPageRoute(builder: (context) => LoginWidget()),
                   );
                 },
                 child: Text('Get Started'),

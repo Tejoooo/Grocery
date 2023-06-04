@@ -25,12 +25,8 @@ class CockTails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<List<dynamic>> items = [
-      ["assets/images/avocado.png", "Avocado", 29.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
+      ["assets/images/ckt2.jpg", "Mojito", 20.2],
+      ["assets/images/ckt2.jpg", "Margarita", 49.9],
     ];
     void showAddedToCartDialog(BuildContext context) {
       showDialog(

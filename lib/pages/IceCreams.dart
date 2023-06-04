@@ -25,12 +25,12 @@ class IceCreams extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<List<dynamic>> items = [
-      ["assets/images/avocado.png", "Avocado", 29.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
+      ["assets/images/ice4.png", "Vanilla", 29.9],
+      ["assets/images/ice4.png", "StrawBerry", 19.9],
+      ["assets/images/ice4.png", "Mango", 19.9],
+      ["assets/images/ice4.png", "Apple", 19.9],
+      ["assets/images/ice4.png", "Custard", 19.9],
+      ["assets/images/ice4.png", "Rosey", 19.9],
     ];
     void showAddedToCartDialog(BuildContext context) {
       showDialog(

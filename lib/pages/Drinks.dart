@@ -25,12 +25,12 @@ class Drinks extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<List<dynamic>> items = [
-      ["assets/images/avocado.png", "Avocado", 29.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
-      ["assets/images/avocado.png", "Apple", 19.9],
+      ["assets/images/water.png", "Fanta", 29.9],
+      ["assets/images/water.png", "Water", 19.9],
+      ["assets/images/water.png", "Coke", 19.9],
+      ["assets/images/water.png", "Juice", 19.9],
+      ["assets/images/water.png", "Thumbs uP", 19.9],
+      ["assets/images/water.png", "Mojito", 19.9],
     ];
     void showAddedToCartDialog(BuildContext context) {
       showDialog(
